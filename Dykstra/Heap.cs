@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Dykstra
 {
-    public class Heap<valueType>
+    public class MinHeap<valueType>
     {
         private List<(int key, valueType value)> heapList;
 
-        public Heap()
+        public MinHeap()
         {
-            heapList = new List<(int, valueType)>();
+            heapList = new List<(int key, valueType value)>();
         }
 
         public void Add(int key, valueType value)
@@ -18,9 +18,9 @@ namespace Dykstra
             heapList.Add((key: key, value: value));
         }
 
-        public (int, valueType) Remove()
+        public (int, valueType) RemoveMin()
         {
-            (int, valueType) returnValue = heapList[0];
+            (int key, valueType value) returnValue = heapList[0];
             heapList.RemoveAt(0);
             return (returnValue);
         }

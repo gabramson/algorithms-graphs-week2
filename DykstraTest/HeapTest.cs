@@ -10,9 +10,9 @@ namespace HeapTest
         [TestMethod]
         public void TestMethod1()
         {
-            Heap<int> heap = new Heap<int>();
+            MinHeap<int> heap = new MinHeap<int>();
             heap.Add(5, 1);
-            Assert.AreEqual(heap.Remove(), (5,1));
+            Assert.AreEqual(heap.RemoveMin(), (5,1));
         }
     }
 }
