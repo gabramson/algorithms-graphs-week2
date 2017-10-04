@@ -7,17 +7,17 @@ namespace Dijkstra
     internal class Vertex
     {
         public int index { get; }
-        public List<int> outNeighbors { get; }
+        public List<(int, int)> outNeighbors { get; }
 
         public Vertex(int myIndex)
         {
             index = myIndex;
-            outNeighbors = new List<int>();
+            outNeighbors = new List<(int,int)>();
         }
 
-        public void AddOutNeighbor(int neighborIndex)
+        public void AddOutNeighbor(int neighborIndex, int length)
         {
-            outNeighbors.Add(neighborIndex);
+            outNeighbors.Add((neighborIndex, length));
         }
     }
 }

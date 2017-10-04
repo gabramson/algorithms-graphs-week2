@@ -8,7 +8,7 @@ namespace HeapTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMinHeap()
         {
             MinHeap<int> heap = new MinHeap<int>();
             heap.Add(5, 1);
