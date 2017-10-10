@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\Dijkstra\\Dijkstra.csproj",
+      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\Dijkstra\\Dijkstra.csproj",
       "projectName": "Dijkstra",
-      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\Dijkstra\\Dijkstra.csproj",
+      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\Dijkstra\\Dijkstra.csproj",
       "packagesPath": "C:\\Users\\garya\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\Dijkstra\\obj\\",
+      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\Dijkstra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

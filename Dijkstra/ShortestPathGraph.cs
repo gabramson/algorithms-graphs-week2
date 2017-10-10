@@ -39,7 +39,6 @@ namespace Dijkstra
             HashSet<int> visited = new HashSet<int>();
             MinHeap<int> lengthHeap = new MinHeap<int>();
             shortestPaths = new Dictionary<int, int>();
-            // initialize shortest paths to infinity and add vertexes to heap
             foreach (Vertex v in vertexList.Values)
             {
                 if (v.index == index)
@@ -52,7 +51,6 @@ namespace Dijkstra
                     shortestPaths.Add(v.index, INFINITY);
                 }
             }
-            // set current to root
             while (visited.Count < size)
             {
                 currentIndex = lengthHeap.ExtractMin().Item2;

@@ -5649,11 +5649,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\DijkstraTest\\DijkstraTest.csproj",
+      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\DijkstraTest\\DijkstraTest.csproj",
       "projectName": "DijkstraTest",
-      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\DijkstraTest\\DijkstraTest.csproj",
+      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\DijkstraTest\\DijkstraTest.csproj",
       "packagesPath": "C:\\Users\\garya\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\DijkstraTest\\obj\\",
+      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\DijkstraTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5672,8 +5672,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\Dijkstra\\Dijkstra.csproj": {
-              "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs\\week2\\Dijkstra\\Dijkstra.csproj"
+            "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\Dijkstra\\Dijkstra.csproj": {
+              "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-graphs-data-structures\\week2\\Dijkstra\\Dijkstra.csproj"
             }
           }
         }
